@@ -2469,6 +2469,8 @@
 
 			.feature .content h3 {
 				margin-bottom: 0.5em;
+				text-transform: uppercase;
+ 				font-size: 26px;
 			}
 
 			.feature .content :last-child {
@@ -2488,7 +2490,7 @@
 					top: 0;
 				}
 
-			.f<eature.left .content {
+			.feature.left .content {
 				padding-right: 0;
 			}
 
@@ -3120,8 +3122,16 @@
 
 	}
 	
-	img#stck{
-		margin-top: 10%;
+	#st_logo.image.fit img {
+ display: block;
+ width: 40%;
+ margin: 0 auto;
+ margin-top: 20px;
+}
+	.success{
+		font-size: 200%
+		color: #FFF;
+		background: #2ecc71;
 	}
 }
  
