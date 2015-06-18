@@ -37,6 +37,6 @@ class feedback(models.Model):
 	Name = models.CharField('Name', max_length=60)
 	email_id = models.EmailField('Email', max_length=255)
 	query = models.TextField()
-	date_time = models.DateTimeField(auto_now=True)
+	# date_time = models.DateTimeField(auto_now=True)
 	def __unicode__(self):
 		return smart_unicoode(self.email_id)

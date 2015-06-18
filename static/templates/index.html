@@ -157,7 +157,7 @@
 
 					<p>We are always here to help and support you. Be frank to ask any query about the product. Also We will be fortunate too to have your feedback over this.<br>We will respond immediately to your activity.</p>
 
-					<form method="post" action="#">
+					<form method="post" action="#">{% csrf_token %}
 						<div class="row">
 							<div class="6u 12u(mobilep)">
 								<input type="text" name="name" placeholder="Name" />
@@ -168,7 +168,7 @@
 						</div>
 						<div class="row">
 							<div class="12u">
-								<textarea name="Query or Feedback" placeholder="Query or Feedback" rows="6"></textarea>
+								<textarea name="feedback" placeholder="Query or Feedback" rows="6"></textarea>
 							</div>
 						</div>
 						<div class="row">
@@ -191,9 +191,8 @@
 					</ul>
 
 					<ul class="stockroom_logo">
-						<li>powered by</li><br /><br />
 						<li class="image fit">
-							<a href="http://stockroom.io"><img src="/static/images/stockroom.png" id="stck" height="70" width="30"></a>
+							<a href="http://stockroom.io"><img src="/static/images/stockroom.png" id="stck" width="30"></a>
 						</li>
 					</ul>
 
